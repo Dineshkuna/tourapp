@@ -1,0 +1,87 @@
+.heroSection{
+    display: flex;
+    padding-top: 2rem;
+
+}
+.heroMatter{
+    margin-left: 2rem;
+}
+
+.heroMatter1{
+    display: flex;
+}
+
+.heroLogo{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.herodesc1 {
+    font-style: italic;
+    background-color: #c6c64b;
+    width: fit-content;
+    padding: 9px;
+    border-radius: 23px;
+}
+
+.herodesc2{
+    font-size: 5rem;
+    margin-top: -1rem;
+    
+}
+
+.herodesc3{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.herodesc4{
+    font-weight: 500;
+
+}
+
+
+.herodesc{
+    margin-right: 20rem;
+    margin-top: -4rem;
+    color: #8e8c8c;
+}
+
+.heroSnap{
+    margin-right: 30rem;
+    
+}
+
+.Heroimg1{
+    margin-left: -7rem;
+    border-radius: 23px;
+    border-style: solid;
+    color: #c6c64b;
+}
+
+
+
+
+.HeroVideo{
+    margin-left: 1rem;
+    /* margin-right: -4rem; */
+    position: absolute;
+    margin-top: 3rem;
+    border-radius: 23px;
+    border-style: solid;
+    color: #c6c64b;
+    overflow: hidden;
+    object-fit: cover
+
+}
+
+.Heroimg2{
+    margin-left: 14.5rem;
+    position: absolute;
+    margin-top: 6rem;
+    border-radius: 23px;
+    border-style: solid;
+    color: #c6c64b;
+}
