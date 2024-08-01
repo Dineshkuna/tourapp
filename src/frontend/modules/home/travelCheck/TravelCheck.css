@@ -1,4 +1,52 @@
 .travelfeature{
     background-color: #f7f7f7;
-    padding: 50px;
+    padding: 100px 30px ;
 }
+
+.travelfeature1{
+    background-color: white;
+    padding: 42px 30px 28px 36px;
+    border-radius: 51px
+}
+
+.inputLocation , .inputdistance , .inputmaxpeople{
+    padding: 10px 146px 10px 27px;
+    margin-top: 0rem;
+    border-left: hidden;
+    border-bottom: hidden;
+    border-top: hidden;
+    
+}
+.inputmaxpeople{
+    border-right: hidden;
+
+}
+
+.labelLocation ,.labeldistance , .labelmaxpeople {
+    /* margin-left: 0rem; */
+    position: absolute;
+    margin-top: -17px;
+    color: red;
+}
+
+.textlocation, .textdistance, .textmaxpeople{
+    color: black;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+.searchbtn{
+    background-color: goldenrod;
+    padding: 12px;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 13px;
+    color: white;
+    border-style: none;
+}
+
+
+
