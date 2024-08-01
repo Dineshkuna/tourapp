@@ -1,0 +1,56 @@
+.serviceContainer{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.serviceBox{
+    width: 304px;
+    margin-left: 87px;
+    border-right: solid;
+    border-bottom: solid;
+    display: inline-block;
+    border-color: #ead090;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 22px;
+    height: 340px;
+    border-block-width: 1px;
+}
+
+.serviceIcon{
+    background-color: #dca313;
+    font-size: 32px;
+    padding: 9px;
+    color: white;
+    width: 42px;
+    border-radius: 31px;
+}
+
+.serviceTitle{
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+.serviceDescription{
+    font-size: 17px;
+    color: #696464;
+    padding-top: 27px;
+
+}
+.serviceHeading{
+    font-size: 20px;
+    font-family: cursive;
+    color: red;
+    margin-left: 33px;
+    font-style: italic;
+
+}
+.serviceCaption{
+    font-size: 40px;
+    margin-left: 33px;
+    font-weight: 500;
+
+}
+
+
