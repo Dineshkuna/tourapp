@@ -4,23 +4,38 @@ import experiencephoto from "../../../../assets/images/experience.png";
 
 const Experience = () => {
   return (
-    <div>
-      <div>
-        <p>Experience</p>
-        <p>With our all experience we will serve you</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit sint
-          atque dolorum veniam aliquid at.
+    <div className="experienceContainer">
+      <div className="experienceSubContainer">
+        <p className="experienceheading">Experience</p>
+        <p className="experiencecaption">
+          With our all experience <br/> we will serve you
         </p>
-        <p>12k+</p>
-        <p>Successfull Trips</p>
-        <p>2k+</p>
-        <p>Regular clients</p>
-        <p>15</p>
-        <p>Years of Experience</p>
+        <p className="experiencedesc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <br /> Sit sint atquethyi veniamylies dolorum veniam aliquid at.
+        </p>
+        <span className="experiencedetail">
+          <div>
+            <p className="experienceReviewCount">12k+</p>
+            <p className="experienceReview">Successfull <br/> Trips</p>
+          </div>
+          <div>
+            <p className="experienceClientCount">2k+</p>
+            <p className="experienceClienCaption">Regular <br/> clients</p>
+          </div>
+          <div>
+            <p className="experienceCount">15</p>
+            <p className="experienceCaption">Years of <br/>Experience</p>
+          </div>
+        </span>
       </div>
+
       <div>
-        <img src={experiencephoto} alt="experiencephoto" />
+        <img
+          className="experiencePhoto"
+          src={experiencephoto}
+          alt="experiencephoto"
+        />
       </div>
     </div>
   );
