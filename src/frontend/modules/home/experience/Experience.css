@@ -21,10 +21,10 @@
 }
 
 .experiencedesc {
-    color: #7c7676;
-    margin-top: -19px;
-    letter-spacing: 2px;
-    font-size: 16px;
+  color: #7c7676;
+  margin-top: -19px;
+  letter-spacing: 2px;
+  font-size: 16px;
 }
 .experiencedetail {
   display: flex;
@@ -34,8 +34,8 @@
 .experienceReviewCount,
 .experienceClientCount,
 .experienceCount {
-  width: 30px;
-  height: 39px;
+  width: 21px;
+  height: 21px;
   background-color: #e56c10e0;
   padding: 33px;
   border-bottom-left-radius: 7px;

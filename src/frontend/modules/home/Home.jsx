@@ -2,8 +2,9 @@ import React from 'react'
 import HeroSlide from './hero/HeroSlide'
 import TravelCheck from './travelCheck/TravelCheck'
 import BestService from './bestService/BestService'
-import Features from './features/Features'
+// import Features from './features/Features'
 import Experience from './experience/Experience'
+import Gallery from './gallery/Gallery'
 
 const Home = () => {
   return (
@@ -11,8 +12,10 @@ const Home = () => {
       <HeroSlide/>
       <TravelCheck/>
       <BestService/>
-      <Features/>
+      {/* <Features/> */}
       <Experience/>
+      <Gallery/>
+
     </div>
   )
 }
