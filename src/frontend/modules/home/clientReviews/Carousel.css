@@ -1,0 +1,125 @@
+/* Carousel.css */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.carouselContainer {
+  background-color: #f8f8f8;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 48px;
+}
+
+.carouselHead {
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: goldenrod;
+  width: max-content;
+  padding: 10px;
+  border-radius: 25px;
+  letter-spacing: 1px;
+}
+
+.carouselCaption {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+  background-color: #f8f8f8;
+  /* padding: 10px 0px 10px 0px; */
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background-color: #f8f8f8;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+.carousel-content,
+.carousel-content1 {
+  width: 300px;
+  height: 400px;
+}
+
+.carousel-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-content1 h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.carousel-content1 p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.visit-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-image {
+  max-width: 40%;
+}
+
+.carousel-image1 {
+  max-width: 40%;
+}
+
+.carousel-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-image1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #333;
+}
