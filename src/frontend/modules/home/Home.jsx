@@ -7,6 +7,7 @@ import Experience from "./experience/Experience";
 import Gallery from "./gallery/Gallery";
 import Carousel from "./clientReviews/Carousel";
 import Subscribe from "../subscribe/Subscribe";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Gallery />
       <Carousel />  
       <Subscribe/>
+      <Footer/>
     </div>
   );
 };
