@@ -6,6 +6,7 @@ import BestService from "./bestService/BestService";
 import Experience from "./experience/Experience";
 import Gallery from "./gallery/Gallery";
 import Carousel from "./clientReviews/Carousel";
+import Subscribe from "../subscribe/Subscribe";
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
       {/* <Features/> */}
       <Experience />
       <Gallery />
-      <Carousel />
+      <Carousel />  
+      <Subscribe/>
     </div>
   );
 };

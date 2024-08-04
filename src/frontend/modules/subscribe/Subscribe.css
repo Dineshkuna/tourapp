@@ -1,0 +1,42 @@
+.subscribeContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(195 227 240);
+    padding: 30px 0px;
+
+}
+.subscribeCaption{
+    font-size: 34px;
+    font-weight: 500;
+}
+.subscribeInput{
+    padding: 20px 20rem 20px 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+
+}
+.subscribeBtn{
+    padding: 14px 40px;
+    border-radius: 9px;
+    background-color: #d0b31a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-left: -157px;
+}
+.subscribeDesc{
+    font-size: 19px;
+
+}
+.subscribeImg{
+
+    width: 95%;
+    height: 95%
+}
+input::placeholder {
+    text-align: left;
+  }
+.subscribeSubContainer{
+    margin-left: -50px;
+}
