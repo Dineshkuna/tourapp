@@ -1,1 +1,54 @@
+.tripContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
+.tripCards {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: calc(25% - 16px);
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 13px;
+  padding: 10px 10px;
+  margin-bottom: 16px;
+}
+.tripphoto {
+    width: 320px;
+    height: 180px;
+}
+.triphead{
+    font-size: 17px;
+    background-color: goldenrod;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: cursive
+}
+.tripdesc{
+    font-size: 35px;
+    margin-top: -8px;
+    font-weight: 500;
+
+}
+.tripMainContainer{
+    padding: 20px 36px;
+}
+.tripcity {
+  margin: auto;
+}
+.triptitle {
+    font-size: 19px;
+    font-weight: 500;
+}
+.tripprice {
+  margin: 0;
+}
+.tripbtn {
+    margin: 0rem 0rem 0rem 14rem;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 8px;
+}
