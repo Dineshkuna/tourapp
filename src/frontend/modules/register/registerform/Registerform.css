@@ -1,8 +1,8 @@
 
-.loginMainContainer{
+.registerMainContainer{
     padding: 60px 0px 60px 0px;
 }
-.loginContainer{
+.registerContainer{
     
     margin-left: 27%;
     display: flex;
@@ -14,21 +14,22 @@
 }
    
 
-.loginImg{
+.registerImg{
     margin: 0px;
+    padding: 0px 47px;
     
 
 }
 .userLogo{
     margin-top: -40px;
 }
-.loginForm{
+.registerForm{
     background-color: #dca313;
     text-align: center;
     padding: 0px 30px;
 
 }
-.loginHead{
+.registerHead{
     font-size: 26px;
     color: white;
     font-weight: 500
@@ -50,8 +51,8 @@
     margin-bottom: 10px;
 
 }
-.loginbtn{
-    padding: 13px 72px;
+.registerbtn{
+    padding: 13px 46px;
     border: none;
     border-radius: 5px;
     background-color: black;
@@ -60,12 +61,12 @@
     margin-bottom: 20px;
 
 }
-.loginNote{
+.registerNote{
     
     color: white;
 
 }
-.loginNote1{
+.registerNote1{
     
     color: black;
 
