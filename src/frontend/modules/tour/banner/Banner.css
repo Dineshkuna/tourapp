@@ -1,0 +1,21 @@
+.tourContainer{
+    display: flex;
+
+}
+.tourHead{
+    position: absolute;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 500;
+    margin: 129px 44%;
+    color: white;
+
+}
+.tourImg{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1px;
+    
+
+}

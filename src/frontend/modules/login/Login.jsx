@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer'
+import Loginform from './loginform/Loginform'
 
 const Login = () => {
   return (
     <div>
-      <h1>login page</h1>
+      <Loginform/>
+      <Footer/>
     </div>
   )
 }

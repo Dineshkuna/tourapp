@@ -1,9 +1,10 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer'
 
 const Register = () => {
   return (
     <div>
-      <h1>register page</h1>
+      <Footer/>
     </div>
   )
 }

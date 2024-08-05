@@ -1,9 +1,16 @@
 import React from 'react'
+import TravelCheck from '../home/travelCheck/TravelCheck'
+import Subscribe from '../subscribe/Subscribe'
+import Footer from '../../components/footer/Footer'
+import Banner from './banner/Banner'
 
 const Tour = () => {
   return (
     <div>
-      <h1>tour page</h1>
+      <Banner/>
+      <TravelCheck />
+      <Subscribe/>
+      <Footer/>
     </div>
   )
 }
