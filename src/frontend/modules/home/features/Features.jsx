@@ -16,7 +16,7 @@ const Features = () => {
             <img src={trip.photo} alt="tripphoto" className="tripphoto" />
             <p className="tripcity">{trip.city}</p>
             <p className="triptitle">{trip.title}</p>
-            <p className="tripprice">${trip.price}/per person</p>
+            <p className="tripprice"><b>${trip.price}</b>/per person</p>
             <button className="tripbtn">Book Now</button>
           </div>
         ))}
