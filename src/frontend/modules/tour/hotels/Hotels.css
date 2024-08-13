@@ -53,4 +53,18 @@
       padding: 13px 8px;
       font-weight: bold;
   }
+  .noTripsMessage{
+    font-size: 3rem;
+    font-style: italic;
+    letter-spacing: 3px;
+    
+
+  }
+  .noTripsMessage1{
+    margin-left: 5rem;
+  }
+.noTripsMessage2{
+    margin-left: 7rem;
+    color: green;
+  }
   

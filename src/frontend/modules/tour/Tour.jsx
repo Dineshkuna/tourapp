@@ -9,7 +9,7 @@ const Tour = () => {
   return (
     <div>
       <Banner/>
-      <TravelCheck />
+      {/* <TravelCheck /> */}
       <Hotels/>
       <Subscribe/>
       <Footer/>
