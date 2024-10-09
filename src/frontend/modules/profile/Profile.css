@@ -1,0 +1,16 @@
+/* frontend/modules/profile/Profile.css */
+.profileContainer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profileContainer h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .profileContainer p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  

@@ -37,7 +37,7 @@ const Hotels = () => {
                 <b>${hotel.price}</b>/per person
               </p>
               
-              <button className="hotelbtn">Book Now</button>
+              <button className="hotelbtn" >Book Now</button>
             </div>
           ))
         ) : (
