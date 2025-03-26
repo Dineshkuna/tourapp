@@ -87,13 +87,62 @@
 
 // module.exports = router;
 
+// const express = require('express');
+// const bcrypt = require('bcryptjs');
+// const jwt = require('jsonwebtoken');
+// const User = require('../models/User'); // Correct path to User model
+// const router = express.Router();
+
+// // Login route
+// router.post('/login', async (req, res) => {
+//   const { email, password } = req.body;
+
+//   try {
+//     let user = await User.findOne({ email });
+//     if (!user) {
+//       return res.status(400).json({ msg: 'Invalid credentials' });
+//     }
+
+//     const isMatch = await bcrypt.compare(password, user.password);
+//     if (!isMatch) {
+//       return res.status(400).json({ msg: 'Invalid credentials' });
+//     }
+
+//     // Create and return JWT
+//     const payload = {
+//       user: {
+//         id: user.id,
+//       },
+//     };
+
+//     jwt.sign(
+//       payload,
+//       process.env.JWT_SECRET,
+//       { expiresIn: '1h' },
+//       (err, token) => {
+//         if (err) throw err;
+//         res.json({ token, name: user.username }); // Send back username along with token
+//       }
+//     );
+//   } catch (err) {
+//     console.error(err.message);
+//     res.status(500).send('Server error');
+//   }
+// });
+
+// module.exports = router;
+
+
+
+
+
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User'); // Correct path to User model
+const User = require('../models/User'); 
 const router = express.Router();
 
-// Login route
+
 router.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
@@ -108,7 +157,7 @@ router.post('/login', async (req, res) => {
       return res.status(400).json({ msg: 'Invalid credentials' });
     }
 
-    // Create and return JWT
+    
     const payload = {
       user: {
         id: user.id,
@@ -121,7 +170,7 @@ router.post('/login', async (req, res) => {
       { expiresIn: '1h' },
       (err, token) => {
         if (err) throw err;
-        res.json({ token, name: user.username }); // Send back username along with token
+        res.json({ token, name: user.username }); 
       }
     );
   } catch (err) {
@@ -131,3 +180,4 @@ router.post('/login', async (req, res) => {
 });
 
 module.exports = router;
+

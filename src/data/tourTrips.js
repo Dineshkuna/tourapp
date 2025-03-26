@@ -9,7 +9,7 @@ const TourTrips = [
     desc: "this is the description",
     reviews: [],
     photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/640px-London_Skyline_%28125508655%29.jpeg",
+      "https://images.unsplash.com/photo-1520986606214-8b456906c813?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     featured: true,
   },
   {
@@ -35,7 +35,7 @@ const TourTrips = [
     desc: "this is the description",
     reviews: [],
     photo:
-      "https://images.ctfassets.net/itrs3p223g0s/18aVEzROm5deNy5ayrxw9h/c3c6cef69e7a56007ef85eef794bacb6/tokyo-hero_1920x1280.jpg",
+      "https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     featured: true,
   },
   {
@@ -87,7 +87,7 @@ const TourTrips = [
     desc: "this is the description",
     reviews: [],
     photo:
-      "https://v1.indonesia.travel/content/dam/indtravelrevamp/en/destinations/header-bali-nusa-tenggara.jpg",
+      "https://media.istockphoto.com/id/1668824567/photo/saraswati-temple-in-ubud.jpg?s=2048x2048&w=is&k=20&c=sLlN8udQlr7zBAUGz-4XRuFP3s3b-RK7ia-9u56JtwM=",
     featured: true,
   },
   {
@@ -100,7 +100,7 @@ const TourTrips = [
     desc: "this is the description",
     reviews: [],
     photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg/900px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg",
+      "https://images.unsplash.com/photo-1520967824495-b529aeba26df?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     featured: true,
   },
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import TravelCheck from '../home/travelCheck/TravelCheck'
+// import TravelCheck from '../home/travelCheck/TravelCheck'
 import Subscribe from '../subscribe/Subscribe'
 import Footer from '../../components/footer/Footer'
 import Banner from './banner/Banner'
