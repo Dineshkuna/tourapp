@@ -18,7 +18,7 @@ const Registerform = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-       const BASE_URL = "https://tourappserver.onrender.com"; 
+       const BASE_URL = "https://server-94ar.onrender.com"; 
       // const res = await axios.post("http://localhost:5000/api/auth/register", formData);
       const res = await axios.post(`${BASE_URL}/api/auth/register`, formData);
       console.log(res.data);

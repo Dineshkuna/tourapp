@@ -267,7 +267,7 @@ const Loginform = ({ setUser }) => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-       const BASE_URL = "https://tourappserver.onrender.com"; 
+       const BASE_URL = "https://server-94ar.onrender.com"; 
       // const res = await axios.post('http://localhost:5000/api/authLogin/login', formData);
       const res = await axios.post(`${BASE_URL}/api/authLogin/login`, formData);
       console.log("Response from Backend:", res.data); 
