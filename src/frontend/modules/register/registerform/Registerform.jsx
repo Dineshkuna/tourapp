@@ -15,18 +15,37 @@ const Registerform = () => {
   const { username, email, password } = formData;
   const onChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
+  // const onSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //      const BASE_URL = "https://server-94ar.onrender.com"; 
+  //     // const res = await axios.post("http://localhost:5000/api/auth/register", formData);
+  //     const res = await axios.post(`${BASE_URL}/api/auth/register`, formData);
+  //     console.log(res.data);
+  //     setFormData({ username: "", email: "", password: "" });
+  //   } catch (err) {
+  //     console.error(err.response ? err.response.data : err.message);
+  //   }
+  // };
   const onSubmit = async (e) => {
-    e.preventDefault();
-    try {
-       const BASE_URL = "https://server-94ar.onrender.com"; 
-      // const res = await axios.post("http://localhost:5000/api/auth/register", formData);
-      const res = await axios.post(`${BASE_URL}/api/auth/register`, formData);
-      console.log(res.data);
-      setFormData({ username: "", email: "", password: "" });
-    } catch (err) {
-      console.error(err.response ? err.response.data : err.message);
-    }
-  };
+  e.preventDefault();
+
+  if (!username || !email || !password) {
+    alert("All fields are required.");
+    return;
+  }
+
+  try {
+    const BASE_URL = "https://server-94ar.onrender.com";
+    const res = await axios.post(`${BASE_URL}/api/auth/register`, formData);
+    alert("Registration successful!");
+    setFormData({ username: "", email: "", password: "" });
+  } catch (err) {
+    alert(err.response?.data?.message || "Registration failed. Please try again.");
+    console.error(err);
+  }
+};
+
 
   return (
     <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "calc(100vh - 100px)", marginTop: "100px" }}>
